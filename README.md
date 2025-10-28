@@ -1,4 +1,7 @@
 # cshapPuzzleBubble
+
+VERSION=v2025.10.28-1
+
 서버 스터디 와 출시를 목표로
 2025-10-28 일
  - 김민수
