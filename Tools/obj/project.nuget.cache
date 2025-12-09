@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SPC/ISRYnjU=",
+  "success": true,
+  "projectFilePath": "D:\\Git\\gitTest\\cshapPuzzleBubble\\Tools\\PacketGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\blackstorm_kmsu143\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512"
+  ],
+  "logs": []
+}

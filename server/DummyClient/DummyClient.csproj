@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DUMMYCLIENT.CSPROJ~RFC94C1021.TMP.tmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Client\Assets\Scripts\Packet\Generated\ClientPacketManager.cs" Link="Packet\ClientPacketManager.cs" />
+    <Compile Include="..\..\Client\Assets\Scripts\Packet\Generated\Enum.cs" Link="Packet\Enum.cs" />
+    <Compile Include="..\..\Client\Assets\Scripts\Packet\Generated\Protocol.cs" Link="Packet\Protocol.cs" />
+    <Compile Include="..\..\Client\Assets\Scripts\Packet\Generated\Struct.cs" Link="Packet\Struct.cs" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ServerCore\ServerCore.csproj" />
+	</ItemGroup>
+
+</Project>
